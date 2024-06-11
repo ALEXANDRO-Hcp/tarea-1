@@ -1,32 +1,13 @@
-# Prerequisites
-*.d
+using namespace std;
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+int main(){
+     int suma = 0;
+     for(int i= 1; i<=10; i++){
+         
+        suma += i + i;
+    
+     }
+     cout<<suma<<endl;
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+    return 0;
+}
